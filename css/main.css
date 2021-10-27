@@ -133,7 +133,7 @@ text-decoration:none;
   }
   
   .popup {
-    position: fixed;
+    position: relative;
     width: 60%;
     padding: 10px;
     max-width: 500px;
@@ -145,7 +145,7 @@ text-decoration:none;
     /* "delay" the visibility transition */
     -webkit-transition: opacity .5s, visibility 0s linear .5s;
     transition: opacity .5s, visibility 0s linear .5s;
-    z-index: 1;
+    z-index: 6;
   }
   
   .popup:target {
