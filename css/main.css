@@ -145,7 +145,7 @@ text-decoration:none;
     /* "delay" the visibility transition */
     -webkit-transition: opacity .5s, visibility 0s linear .5s;
     transition: opacity .5s, visibility 0s linear .5s;
-    z-index: 6;
+    z-index: 1000;
   }
   
   .popup:target {
