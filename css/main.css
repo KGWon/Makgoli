@@ -124,7 +124,7 @@ text-decoration:none;
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-    z-index: 900;
+    z-index: 10000;
   }
   
   .overlay:target {
@@ -145,7 +145,7 @@ text-decoration:none;
     /* "delay" the visibility transition */
     -webkit-transition: opacity .5s, visibility 0s linear .5s;
     transition: opacity .5s, visibility 0s linear .5s;
-    z-index: 1000;
+    z-index: 10000;
   }
   
   .popup:target {
